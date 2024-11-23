@@ -25,7 +25,8 @@
   "contributors": [],
   "scripts": {
     "dev": "node --watch --env-file=.env server.js",
-    "test": ""
+    "test": "node --watch --env-file=.env server.js",
+    "pdr": "node --watch server.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
